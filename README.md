@@ -1,20 +1,8 @@
-Android Photos
-=============================
+## Android Application
 
-This is an Android version of the Photos App.
+Welcome to the Android Studio Java world. Here is a guideline to help you get started to write Java code in Android Studio.
 
-@authors: Parth Patel, Yash Patel
-Folder Structure
-
-The workspace contains two folders by default, where:
-
-    app/src: the folder to maintain sources
-
-## Building the Sample App
-
-First, clone the repo:
-
-`git clone https://parthpatel111@bitbucket.org/pp847/android10.git`
+@authors: Yash Patel, Parth Patel
 
 ### Android Studio (Recommended)
 
@@ -25,7 +13,5 @@ First, clone the repo:
 * Click 'OK' to open the the project in Android Studio.
 * A Gradle sync should start, but you can force a sync and build the 'app' module as needed.
 
-
-Important Notes
-
-        Photos Application Requirements: https://www.cs.rutgers.edu/courses/213/classes/fall_2022_venugopal/android/android.html
+### Important Notes
+> - This is an `Android Version` of the `JavaFX Desktop Application`. This Android Version of the Photos Application allows users to view, store, and manage their albums locally on their portable Android smartphones without needing a stationary desktop computer.
