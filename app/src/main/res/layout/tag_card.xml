@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    >
+
+    <TextView
+        android:id="@+id/tagTypeTagValue"
+        android:layout_width="278sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tagtype_tagvalue"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/deleteTagButton"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/delete"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

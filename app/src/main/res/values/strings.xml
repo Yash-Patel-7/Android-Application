@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Photos Library</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="display_mode">Display Mode</string>
+    <string name="rename">Rename</string>
+    <string name="create">Create</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="tags">Tags:</string>
+    <string name="tagtype_tagvalue">tagType: TagValue</string>
+    <string name="move_to">Move To</string>
+</resources>

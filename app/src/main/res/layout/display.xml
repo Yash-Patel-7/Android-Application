@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/moveTo"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:text="@string/move_to" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tags"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:paddingStart="10sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listOfTags"
+            android:layout_width="match_parent"
+            android:layout_height="352dp" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/upload"
+        android:layout_width="151sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/open"
+        android:textSize="20sp"
+        android:title="@string/upload_photo" />
+</menu>
